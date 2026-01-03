@@ -1,14 +1,16 @@
 {
   "name": "mazeland-server",
   "version": "1.0.0",
-  "type": "module",
-  "engines": {
-    "node": "18.x"
-  },
-  "dependencies": {
-    "ws": "^8.17.0"
-  },
+  "description": "WebSocket server for Mazeland",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
